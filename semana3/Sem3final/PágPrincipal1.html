@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+</head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #16191e;
+            font-size: 34px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+        }
+        li {
+            float: left;
+            
+        }
+        li a:hover:not(all) {
+            background-color: #92a5c1;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 20px 100px;
+
+        }
+        #banner {
+            width: 100%;
+        }
+        #centrado {position: absolute;
+            top: 25%;
+            left: 40%;
+            font-size: 35px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            color: #d8d4db; 
+            
+            }
+            #logo {float: right;
+            padding-right: 20px;
+            padding-top: 10px;
+            }
+            
+              
+        
+    </style>
+
+
+
+
+
+<body>
+    <div id="container"> 
+        <div>
+            <ul>
+                <li><a id='inicial' href="listadeintereses.html">Lista de intereses</a></li>
+                <li><a href="Listademetas.html">Lista de metas</a></li>
+                <li><a href="Canciones.html">Canciones</a></li>
+                <li><a href="listaanimales.html">Animales</a></li>
+                <li id="logo"><img src="yingyang.png" alt="" style=" width: 140px;   height: 90px; ">
+
+            </ul>
+        </div>
+
+            <div id="contenedor-imagen">
+                <img id="banner" src="wallpaer.jpeg" alt="">
+                <div id="centrado">Página Principal
+
+                    <h4>Formularios</h4>
+                    <form action="respuesta.html" method="get">    
+                    <label for="">Nombre: </label> <input type="text" name="nombre"><br><br>
+                    <label for="">Edad: </label> <input type="number" name="edad"><br><br>
+                    <label for="">Correo</label> <input type="email" name="correo"><br><br>
+                    <label for="">Género<br></label><input type="radio" name="genero" value="fem"> Femenino
+                    <input type="radio" name="genero" value="mas">Masculino 
+                    <br>
+                    <input type="submit" value="enviar">
+                
+                    </form>
+                    
+                    
+                </div>
+            </div>
+
+
+    </div>
+
+
+    
+</body>
+</html>
