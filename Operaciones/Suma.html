@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function saluda(){
+            alert("Hola");
+        }
+        function saludaPersona(nombre){
+            alert("Hola "+nombre);
+        }
+        saluda();
+        saludaPersona("César");
+
+        var a = parseInt(window.prompt("Ingresa el primer número"));
+        var b = parseInt(window.prompt("Ingresa el segundo número"));
+        var c;
+        
+
+        function suma(a,b){
+        var c = a + b;
+        alert ("El valor de la variable es "+ c );
+        return c;   
+        }
+        var c=suma(a,b);
+        document.writeln("El resultado de la suma es "+ c);
+
+    </script>
+
+
+
+
+</body>
+</html>
